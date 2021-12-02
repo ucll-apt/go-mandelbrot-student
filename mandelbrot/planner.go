@@ -64,3 +64,19 @@ func (p FramePlanner) getJob(index int) Job {
 	*/
 	return nil
 }
+
+type MonolithPlanner struct {
+	mandelbrots []Mandelbrot
+}
+
+func (p MonolithPlanner) jobCount() int {
+	// TODO
+	return -1
+}
+
+func (p MonolithPlanner) getJob(index int) Job {
+	/*
+		Everything in one job
+	*/
+	return nil
+}
